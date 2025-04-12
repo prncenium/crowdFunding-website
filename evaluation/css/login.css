@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-color: #d6eace;
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 30px;
+    
+
+}
+
+.container{
+    background-color: #f4f4f4;
+    padding: 40px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    height: 400px;
+    
+    
+}
+
+h1{
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 100%;
+    padding: 20px;
+    margin: 10px -20px;
+
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+button{
+    width: 100%;
+    background-color: #34ad43;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    
+}
+#login-moto{
+    color: #34ad43;
+    font-size: 18px;
+    font: bold;
+}
+
+a{
+    color: #34ad43;
+    
+}
+
+@media (max-width: 480px){
+    .container{
+        width: 90%;
+        padding: 20px;
+    }
+}

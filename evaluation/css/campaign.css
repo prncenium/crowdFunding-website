@@ -1,0 +1,109 @@
+/* Campaign Grid */
+
+
+.campaign-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px,1fr));
+    gap: 50px;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* boxes on webpage mera  */
+  .campaign-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .campaign-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .campaign-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+
+  .progress-container {
+    height: 8px;
+    background: #eee;
+    border-radius: 4px;
+    margin: 25px 0;
+  }
+  
+ 
+  
+  .campaign-content {
+    padding: 30px;
+  }
+  
+
+  
+  .stats {
+    display: flex;
+    
+    margin: 10px 0;
+    font-weight: bold;
+    
+  }
+  
+
+.filter-container {
+  padding: 20px 40px;
+  background: #f8f9fa;
+  text-align: center;
+}
+
+
+
+.filter-container select {
+  padding: 8px 15px;
+  border-radius: 20px;
+ 
+}
+
+
+.pagination-controls {
+  text-align: center;
+  margin: 30px 0;
+  
+}
+
+.pagination-btn {
+  padding: 10px 25px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 25px;
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.pagination-btn:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+#current-page {
+  margin: 0 15px;
+  font-weight: bold;
+  color: #666;
+}
+
+.campaign-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+

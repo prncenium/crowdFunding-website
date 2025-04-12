@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Campaign</title>
+    
+    <link rel="stylesheet" href="css/campaign.css">
+    <link rel="stylesheet" href="css/startcampign.css">
+</head>
+<body>
+    <nav class="navbar">
+        
+            <img src="images/image_2025-04-09_164426755.png" alt="Logo" class="logo">
+            <div class="search-bar">
+                <input type="text" placeholder="Search campaigns...">
+            </div>
+        
+        <div class="nav-links">
+            <a href="homepage.html" class="btn" > Home </a>
+        </div>
+    </nav>
+
+    <h1 class="page-title" style="font-size: 60px; line-height: 100px; margin-top: 150px;">Make a change... 🫴</h1>
+
+    <main class="form-container">
+        
+        <h1>Create New Campaign</h1>
+        <form id="campaignForm">
+            <div class="form-group">
+                <label>Campaign Title</label>
+                <input type="text" id="campaign-title" placeholder="Enter Campign Title" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Your Name</label>
+                <input type="text" id="organizer-name" placeholder="Enter organiser Name" required>
+            </div>
+
+            <div class="form-group">
+                <label>Funding Goal ($)</label>
+                <input type="number" id="funding-goal" placeholder="Enter funding goal"  required>
+            </div>
+
+            <div class="form-group">
+                <label>Select Cause</label>
+                <select id="cause" required>
+                    <option value="">Choose a cause</option>
+                    <option value="education">Education</option>
+                    <option value="healthcare">Healthcare</option>
+                    <option value="environment">Environment</option>
+                    <option value="kids">Save a child</option>
+                    <option value="animals">Save Animals</option>
+                    <option value="aids">AIDS</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Description</label>
+                <textarea id="description" placeholder="Describe in detail..."  required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Launch Campaign</button>
+        </form>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+          <div>
+            <h4>About HelpNest</h4>
+            <p>
+              Helping Hand since 2023. Learn more about
+              <a href="/mission">our mission</a>.
+            </p>
+          </div>
+  
+          <div>
+            <h4>Explore</h4>
+            <a href="/startcampign.html">Start a Campaign</a>
+            <a href="/blog">About us</a>
+          </div>
+  
+          <div>
+            <h4>Trust</h4>
+            <a href="/faq">FAQ</a>
+            <a href="/privacy">Privacy Policy</a>
+            <a href="/security">Security</a>
+          </div>
+  
+          <div>
+            <h4>Connect</h4>
+            <div>
+              <a href="#"><img style="width: 50px" src="./images/x-twitter-brands-solid.svg" alt="Twitter"/></a>
+              <a href="#"><img style="width: 50px" src="./images/instagram-brands-solid.svg" alt="Instagram"/></a>
+            </div>
+            <p>Contact: <a href="mailto:support@changemakers.com">support@changemakers.com</a></p>
+          </div>
+        </div>
+  
+        <div class="footer-bottom">
+          <p>@ 2025 ChangeMakers.</p>
+        </div>
+      </footer>
+
+    <script type="module" src="js/firebase-config.js"></script>
+    <script type="module" src="js/startcampign.js"></script>
+</body>
+</html>
