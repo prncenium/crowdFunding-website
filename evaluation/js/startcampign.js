@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     try {
       await addDoc(collection(db, "campaigns"), campaignData);
       alert("Campaign created successfully!");
-      window.location.href = "index.html";
+      window.location.href = "homepage.html";
     } catch (error) {
       console.error("Error creating campaign:", error);
       alert("Error: " + error.message);

@@ -20,7 +20,7 @@ document.getElementById('signup-btn')?.addEventListener('click', async (e) => {
       email: email,
       createdAt: new Date()
     });
-    window.location.href = "index.html";
+    window.location.href = "homepage.html";
   } catch (error) {
     document.getElementById('signup-error').textContent = error.message;
   }
@@ -34,7 +34,7 @@ document.getElementById('login-btn')?.addEventListener('click', async (e) => {
   
   try {
     await signInWithEmailAndPassword(auth, email, password);
-    window.location.href = "index.html";
+    window.location.href = "homepage.html";
   } catch (error) {
     document.getElementById('login-error').textContent = error.message;
   }
