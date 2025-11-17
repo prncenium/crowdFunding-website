@@ -5,7 +5,7 @@ Users can create campaigns, support causes, and track donation progress in real-
 
 ### 🚀 Live Demo
 
-🔗 [**Play with the App**] https://cute-heliotrope-b7fa4b.netlify.app
+🔗 Live Demo: https://cute-heliotrope-b7fa4b.netlify.app
 
 ---
 
