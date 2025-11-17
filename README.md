@@ -34,15 +34,14 @@ Users can create campaigns, support causes, and track donation progress in real-
 To run this project locally, follow these steps:
 
 1. **Clone the repository:**
-  
+   
    git clone [https://github.com/prncenium/crowdFunding-website.git](https://github.com/prncenium/crowdFunding-website.git)
 
 2.Navigate to the project directory:
    cd crowdFunding-website
-   # If the code is inside the 'evaluation' folder, use: cd evaluation
    
 3.Install Dependencies:
   npm install
-
+  
 4.Run the App:
   npm run dev
