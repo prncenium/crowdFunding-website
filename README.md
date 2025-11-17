@@ -37,11 +37,11 @@ To run this project locally, follow these steps:
    
    git clone [https://github.com/prncenium/crowdFunding-website.git](https://github.com/prncenium/crowdFunding-website.git)
 
-2.Navigate to the project directory:
+2. Navigate to the project directory:
    cd crowdFunding-website
    
-3.Install Dependencies:
+3. Install Dependencies:
   npm install
   
-4.Run the App:
+4. Run the App:
   npm run dev
